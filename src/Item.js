@@ -9,7 +9,7 @@ class Item {
     this.expireSpeed = 1;
   }
 
-  updateStatus() {
+  getStatus() {
     if(this.name.includes('Backstage', 0) || this.name.includes('Aged Brie', 0)){
       this.isBetterWhenGetOdler = true;
     }else if(this.name.includes('Sulfuras', 0)){

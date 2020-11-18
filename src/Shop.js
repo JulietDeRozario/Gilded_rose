@@ -5,7 +5,7 @@ class Shop {
     
     updateQuality() {
       this.items.forEach(product => {
-        product.updateStatus();
+        product.getStatus();
         product.countADay();
       } )
   
